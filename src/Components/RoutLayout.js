@@ -7,6 +7,7 @@ const RoutLayout = () => {
     <div>
         <Header/>
       <Outlet/>
+      
       <Footer/>
     </div>
   )

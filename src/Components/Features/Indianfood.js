@@ -1,3 +1,5 @@
+import React from "react";
+import Indfood1 from '../../images/Indfood1.jpg'
 import {
   Card,
   CardHeader,
@@ -9,10 +11,9 @@ import {
 
 const Indianfood = () => {
   return (
-    <Card className="w-80 shadow-lg">
+    <Card className="w-80 shadow-lg mt-52">
       <CardHeader shadow={false} floated={false} className="h-60">
-        <img
-          src="https://images.unsplash.com/photo-1600628422011-7acf5efab3ca?auto=format&fit=crop&w=800&q=80"
+        <img src={Indfood1}
           alt="Biryani"
           className="h-full w-full object-cover rounded-xl"
         />

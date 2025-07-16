@@ -9,7 +9,7 @@ import {
 
 const Nepalifood = () => {
   return (
-    <Card className="w-80 shadow-lg">
+    <Card className="w-80 shadow-lg mt-52">
       <CardHeader shadow={false} floated={false} className="h-60">
         <img
           src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80"
